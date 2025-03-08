@@ -10,7 +10,6 @@ SoftwareSerial BTSerial(10, 11);
 Adafruit_MPU6050 mpu;
 
 // Threshold for jump detection on the Y-axis (in m/s^2)
-// Adjust this threshold based on your calibration.
 // When the sensor is oriented with an extra 90° rotation, the Y-axis captures the jump drop.
 const float jumpAccelThreshold = 5.0;
 
